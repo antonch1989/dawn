@@ -62,7 +62,7 @@ window['nf-forms']['13180'] = {
     'customJs': '',
     'entranceAnimation': '',
     'entranceAnimationDuration': '1.2s',
-        'fields': [
+     'font': JSON.parse('\u007B\u0022label\u0022\u003A\u0022Akaya\u0020Kanadaka\u0022,\u0022value\u0022\u003A2,\u0022css\u0022\u003A\u0022\u0027Akaya\u0020Kanadaka\u0027,\u0020cursive\u0022,\u0022family\u0022\u003A\u0022Akaya\u002BKanadaka\u0022\u007D') ,     'fields': [
                     {
             'id': 109451,
             'name': 'custom_6123b353597aa',
