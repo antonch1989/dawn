@@ -23,7 +23,7 @@ window['nf-forms']['13282'] = {
     'modalButtonModeMobile': 'icon',
     'modalButtonBorderRadius': '5',
     'titlePosition': 'left',
-    'description': '\u003Cp\u0020style\u003D\u0022text\u002Dalign\u003Aleft\u003B\u0022\u003E\u003Cspan\u0020style\u003D\u0022color\u003A\u0020rgb\u0028191,191,191\u0029\u003Bfont\u002Dsize\u003A\u002016px\u003B\u0022\u003E\u003Cstrong\u003EHow\u0020can\u0020we\u0020help\u0020you\u003F\u003C\/strong\u003E\u003C\/span\u003E\u003C\/p\u003E\n',
+    'description': '\u003Cp\u0020style\u003D\u0022text\u002Dalign\u003Aleft\u003B\u0022\u003E\u003Cspan\u0020style\u003D\u0022color\u003A\u0020rgb\u0028255,255,255\u0029\u003Bfont\u002Dsize\u003A\u002016px\u003B\u0022\u003E\u003Cstrong\u003EHow\u0020can\u0020we\u0020help\u0020you\u003F\u003C\/strong\u003E\u003C\/span\u003E\u003C\/p\u003E\n',
     'formBorderRadius': 10,
     'errorType': 'tooltip',
     'isLabels': 0,
