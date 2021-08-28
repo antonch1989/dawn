@@ -31,12 +31,12 @@ window['nf-forms']['13282'] = {
     'boldLabels': 1,
     'italicLabels': 0,
     'labelAlign': 'left',
-    'successMessage': 'The\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021',
+    'successMessage': '\u003Cp\u003EThe\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021\u003C\/p\u003E\n\u003Cp\u003E\u003C\/p\u003E\n',
     'successMessageBgColor': 'rgba\u0028212,237,218,1\u0029',
     'successMessageVisibility': '10',
     'failureMessage': 'Form\u0020validation\u0020failed.\u0020Please\u0020correct\u0020the\u0020input\u0020data\u0020and\u0020submit\u0020again.',
     'bgColor': 'rgba(255,255,255,1)',
-    'bgSrc': '',
+    'bgSrc': 'https://cdn.shopify.com/s/files/1/0252/3142/5585/files/nf_bg_road.jpg?v=1597339264',
     'labelsColor': 'rgba(0,0,0,1)',
     'inputBackgroundColor': 'rgba\u0028255,255,255,1\u0029',
     'inputTextColor': 'rgba\u00280,0,0,1\u0029',
@@ -47,13 +47,13 @@ window['nf-forms']['13282'] = {
     'maxWidth': 600,
     'labelFontSize': 16,
     'isBoxed': 1,
-    'isFullWidthSubmit': 0,
+    'isFullWidthSubmit': 1,
     'afterSubmitAction': 'form_and_message',
     'redirectUrl': '',
     'submitColor': 'rgba\u0028255,255,255,1\u0029',
     'submitFontSize': '16',
-    'submitWidth': '3',
-    'submitHeight': '3',
+    'submitWidth': '5',
+    'submitHeight': '5',
     'submitButtonColor': 'rgba(0,0,0,1)',
     'submitPosition': 'right',
     'submitBorderRadius': '4',
@@ -113,22 +113,6 @@ window['nf-forms']['13282'] = {
                                         , 'minHeight': '90'
                                             }
         ,        {
-            'id': 110242,
-            'name': 'submit',
-            'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dpaper\u002Dplane',
-            'type': 'submit',
-            'choices': '\u005B\u005D',
-            'placeholder': '',
-            'width': 'col\u002Dmd\u002D12',
-            'isMultipleChoice': 0,
-            'isConditional': 0,
-            'isRequired': 0,
-            'canRender': 1,
-            'dependsOn': '',
-            'dependsOnValues': '\u005B\u005D',
-            'label': 'SUBMIT'
-                                                        }
-        ,        {
             'id': 110243,
             'name': 'custom_612a6f429dc8d',
             'icon': '',
@@ -161,6 +145,22 @@ window['nf-forms']['13282'] = {
             'dependsOnValues': '\u005B\u005D',
             'label': 'Map\u0020label'
                             , 'settings': JSON.parse('\u007B\u0022latitude\u0022\u003A51.5074,\u0022longitude\u0022\u003A0.1278,\u0022mapHeight\u0022\u003A400,\u0022zoom\u0022\u003A12\u007D')
+                                                        }
+        ,        {
+            'id': 110242,
+            'name': 'submit',
+            'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Denvelope\u002Dopen\u002Dtext',
+            'type': 'submit',
+            'choices': '\u005B\u005D',
+            'placeholder': '',
+            'width': 'col\u002Dmd\u002D12',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 0,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'SUBMIT'
                                                         }
             ]
 };
