@@ -82,23 +82,6 @@ window['nf-forms']['20'] = {
             'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A132,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D,\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\Email\u0022,\u0022label\u0022\u003A\u0022Email\u0020address\u0022,\u0022name\u0022\u003A\u0022email\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020is\u0020not\u0020a\u0020valid\u0020email\u0020address.\u0022,\u0022id\u0022\u003A133,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
                                                         }
         ,        {
-            'id': 142,
-            'name': 'submit',
-            'icon': '',
-            'type': 'submit',
-            'choices': '\u005B\u005D',
-            'placeholder': '',
-            'width': 'col\u002Dmd\u002D12',
-            'isMultipleChoice': 0,
-            'isConditional': 0,
-            'isRequired': 0,
-            'canRender': 1,
-            'dependsOn': '',
-            'dependsOnValues': '\u005B\u005D',
-            'label': 'SUBSCRIBE',
-            'validationRules': JSON.parse('\u005B\u005D')
-                                                        }
-        ,        {
             'id': 143,
             'name': 'custom_612ddae469fbc',
             'icon': '',
@@ -133,6 +116,41 @@ window['nf-forms']['20'] = {
             'label': 'Date\u0020label',
             'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A136,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
                             , 'settings': JSON.parse('\u007B\u0022locale\u0022\u003A\u0022en\u0022,\u0022yearBegin\u0022\u003A2011,\u0022yearEnd\u0022\u003A2031,\u0022pastDatesDisabled\u0022\u003Afalse,\u0022todayDisabled\u0022\u003Afalse,\u0022futureDisabledDaysNumber\u0022\u003A0,\u0022disabledIntervals\u0022\u003A\u005B\u005D,\u0022format\u0022\u003A\u0022YYYY\u002DM\u002DD\u0022\u007D')
+                                                        }
+        ,        {
+            'id': 145,
+            'name': 'custom_612ddafe58bc0',
+            'icon': '',
+            'type': 'image_select',
+            'choices': '\u005B\u007B\u0022value\u0022\u003A\u0022one\u0022,\u0022file\u0022\u003A\u0022https\u003A\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0252\\\/3142\\\/5585\\\/files\\\/one.jpg\u003Fv\u003D1627892227\u0022\u007D,\u007B\u0022value\u0022\u003A\u0022two\u0022,\u0022file\u0022\u003A\u0022https\u003A\\\/\\\/cdn.shopify.com\\\/s\\\/files\\\/1\\\/0252\\\/3142\\\/5585\\\/files\\\/two.jpg\u003Fv\u003D1627892227\u0022\u007D\u005D',
+            'placeholder': 'Image\u0020select\u0020placeholder',
+            'width': 'col\u002Dmd\u002D12',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 1,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'Image\u0020select\u0020label',
+            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A137,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
+                                                                , 'defaultValue': '\u005B\u005D'
+                    }
+        ,        {
+            'id': 142,
+            'name': 'submit',
+            'icon': '',
+            'type': 'submit',
+            'choices': '\u005B\u005D',
+            'placeholder': '',
+            'width': 'col\u002Dmd\u002D12',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 0,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'SUBSCRIBE',
+            'validationRules': JSON.parse('\u005B\u005D')
                                                         }
             ]
 };
