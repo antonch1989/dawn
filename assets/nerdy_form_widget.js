@@ -4,7 +4,7 @@ window['nf-forms']['20'] = {
     'id': 20,
     'title': 'Subscribe\u0020to\u0020our\u0020newsletter',
     'name': 'New\u0020klaviyo\u0020form',
-    'isModal': 0,
+    'isModal': 1,
     'isModalButton': 1,
     'modalButtonIsBold': 1,
     'modalButtonText': 'Contact\u0020Us',
