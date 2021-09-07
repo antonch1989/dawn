@@ -63,7 +63,7 @@ window['nf-forms']['20'] = {
     'customJs': '',
     'entranceAnimation': '',
     'entranceAnimationDuration': '1.2s',
-    'numberOfSteps': 2,
+    'numberOfSteps': 1,
     'currentStep': 1,
         'fields': [
                     {
@@ -71,7 +71,7 @@ window['nf-forms']['20'] = {
             'name': 'custom_613712af39713',
             'icon': '',
             'type': 'date',
-            'step': 2,
+            'step': 1,
             'choices': '\u005B\u005D',
             'placeholder': 'Date\u0020placeholder',
             'width': 'col\u002Dmd\u002D12',
