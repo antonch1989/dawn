@@ -63,10 +63,29 @@ window['nf-forms']['20'] = {
     'customJs': '',
     'entranceAnimation': '',
     'entranceAnimationDuration': '1.2s',
-    'numberOfSteps': 1,
+    'numberOfSteps': 2,
     'currentStep': 1,
         'fields': [
                     {
+            'id': 146,
+            'name': 'custom_613712af39713',
+            'icon': '',
+            'type': 'date',
+            'step': 2,
+            'choices': '\u005B\u005D',
+            'placeholder': 'Date\u0020placeholder',
+            'width': 'col\u002Dmd\u002D12',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 1,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'Date\u0020label',
+            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A138,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
+                            , 'settings': JSON.parse('\u007B\u0022locale\u0022\u003A\u0022en\u0022,\u0022yearBegin\u0022\u003A2011,\u0022yearEnd\u0022\u003A2031,\u0022pastDatesDisabled\u0022\u003Afalse,\u0022todayDisabled\u0022\u003Afalse,\u0022futureDisabledDaysNumber\u0022\u003A0,\u0022disabledIntervals\u0022\u003A\u005B\u005D,\u0022format\u0022\u003A\u0022YYYY\u002DM\u002DD\u0022\u007D')
+                                                        }
+        ,        {
             'id': 140,
             'name': 'email',
             'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dat',
