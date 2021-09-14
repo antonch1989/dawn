@@ -120,7 +120,7 @@ window['nf-forms']['24'] = {
     'italicLabels': 0,
     'frontendValidation': 1,
     'labelAlign': 'left',
-    'successMessage': 'The\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021',
+    'successMessage': '\u003Cp\u003EThe\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021\u003C\/p\u003E\n\u003Cp\u003E\u003C\/p\u003E\n',
     'successMessageBgColor': 'rgba\u0028212,237,218,1\u0029',
     'successMessageVisibility': '10',
     'failureMessage': 'Form\u0020validation\u0020failed.\u0020Please\u0020correct\u0020the\u0020input\u0020data\u0020and\u0020submit\u0020again.',
