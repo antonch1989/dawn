@@ -92,7 +92,7 @@ window['nf-forms']['24'] = {
     'id': 24,
     'title': 'Title',
     'name': 'New\u0020form\u0020copy',
-    'isModal': 0,
+    'isModal': 1,
     'isModalButton': 1,
     'modalButtonIsBold': 1,
     'modalButtonText': 'Contact\u0020Us',
