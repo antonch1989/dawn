@@ -10,7 +10,7 @@ window['nf-forms']['25'] = {
     'modalButtonText': 'Contact\u0020Us',
     'modalButtonColor': 'rgba\u0028255,255,255,1\u0029',
     'modalButtonBackground': 'rgba\u00280,0,0,1\u0029',
-    'modalButtonPosition': 'bottom\u002Dright',
+    'modalButtonPosition': 'middle\u002Dright',
     'modalButtonPositionMargin': '40',
     'modalButtonFontSize': '16',
     'modalButtonIcon': 'nf\u002Dfar\u0020nf\u002Dfa\u002Denvelope',
