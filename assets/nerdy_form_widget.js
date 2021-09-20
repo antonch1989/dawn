@@ -4,7 +4,7 @@ window['nf-forms']['25'] = {
     'id': 25,
     'title': 'Sign\u0020up',
     'name': 'New\u0020registration\u0020form',
-    'isModal': 0,
+    'isModal': 1,
     'isModalButton': 1,
     'modalButtonIsBold': 1,
     'modalButtonText': 'Contact\u0020Us',
@@ -105,24 +105,6 @@ window['nf-forms']['25'] = {
             'dependsOnValues': '\u005B\u005D',
             'label': 'Last\u0020name',
             'validationRules': JSON.parse('\u005B\u005D')
-                                                        }
-        ,        {
-            'id': 165,
-            'name': 'email',
-            'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dat',
-            'type': 'text',
-            'step': 1,
-            'choices': '\u005B\u005D',
-            'placeholder': 'Email',
-            'width': 'col\u002Dmd\u002D6',
-            'isMultipleChoice': 0,
-            'isConditional': 0,
-            'isRequired': 1,
-            'canRender': 1,
-            'dependsOn': '',
-            'dependsOnValues': '\u005B\u005D',
-            'label': 'Email',
-            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A153,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D,\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\Email\u0022,\u0022label\u0022\u003A\u0022Email\u0020address\u0022,\u0022name\u0022\u003A\u0022email\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020is\u0020not\u0020a\u0020valid\u0020email\u0020address.\u0022,\u0022id\u0022\u003A154,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
                                                         }
         ,        {
             'id': 165,
