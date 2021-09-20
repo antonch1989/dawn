@@ -235,6 +235,42 @@ window['nf-forms']['25'] = {
                                                                 , 'defaultValue': '\u005B\u005D'
                     }
         ,        {
+            'id': 176,
+            'name': 'password',
+            'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dlock',
+            'type': 'password',
+            'step': 1,
+            'choices': '\u005B\u005D',
+            'placeholder': 'Password',
+            'width': 'col\u002Dmd\u002D6',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 1,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'Password',
+            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A157,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D,\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\Regex\u0022,\u0022label\u0022\u003A\u0022Regular\u0020expression\u0022,\u0022name\u0022\u003A\u0022regex\u0022,\u0022errorMessage\u0022\u003A\u0022Password\u0020is\u0020too\u0020short\u0020\u0028minimum\u0020is\u00205\u0020characters\u0029.\u0022,\u0022id\u0022\u003A158,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003A\u0022\\\/\u005E.\u007B5,\u007D\u0024\\\/\u0022,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
+                                                        }
+        ,        {
+            'id': 177,
+            'name': 'password_confirmation',
+            'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dlock',
+            'type': 'password',
+            'step': 1,
+            'choices': '\u005B\u005D',
+            'placeholder': 'Confirm\u0020password',
+            'width': 'col\u002Dmd\u002D6',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 1,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'Confirm\u0020password',
+            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A159,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D,\u007B\u0022value\u0022\u003A\u0022App\\\\Validator\\\\PasswordsMatch\u0022,\u0022label\u0022\u003A\u0022Passwords\u0020match\u0022,\u0022name\u0022\u003A\u0022passwords_match\u0022,\u0022errorMessage\u0022\u003A\u0022Should\u0020match\u0020the\u0020provided\u0020password\u0022,\u0022id\u0022\u003A160,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Afalse\u007D\u005D')
+                                                        }
+        ,        {
             'id': 178,
             'name': 'submit',
             'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dpaper\u002Dplane',
