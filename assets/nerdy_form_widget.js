@@ -256,7 +256,7 @@ window['nf-forms']['25'] = {
         ,        {
             'id': 176,
             'name': 'password',
-            'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dlock',
+            'icon': '',
             'type': 'password',
             'step': 1,
             'choices': '\u005B\u005D',
