@@ -4,7 +4,7 @@ window['nf-forms']['26'] = {
     'id': 26,
     'title': 'Title',
     'name': 'New\u0020form',
-    'isModal': 0,
+    'isModal': 1,
     'isModalButton': 1,
     'modalButtonIsBold': 1,
     'modalButtonText': 'Contact\u0020Us',
@@ -35,7 +35,7 @@ window['nf-forms']['26'] = {
     'italicLabels': 0,
     'frontendValidation': 1,
     'labelAlign': 'left',
-    'successMessage': 'The\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021',
+    'successMessage': '\u003Cp\u003EThe\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021\u003C\/p\u003E\n\u003Cp\u003E\u003C\/p\u003E\n',
     'successMessageBgColor': 'rgba\u0028212,237,218,1\u0029',
     'successMessageVisibility': '10',
     'failureMessage': 'Form\u0020validation\u0020failed.\u0020Please\u0020correct\u0020the\u0020input\u0020data\u0020and\u0020submit\u0020again.',
@@ -71,24 +71,6 @@ window['nf-forms']['26'] = {
     'currentStep': 1,
         'fields': [
                     {
-            'id': 181,
-            'name': 'submit',
-            'icon': '',
-            'type': 'submit',
-            'step': 1,
-            'choices': '\u005B\u005D',
-            'placeholder': '',
-            'width': 'col\u002Dmd\u002D12',
-            'isMultipleChoice': 0,
-            'isConditional': 0,
-            'isRequired': 0,
-            'canRender': 1,
-            'dependsOn': '',
-            'dependsOnValues': '\u005B\u005D',
-            'label': 'Submit',
-            'validationRules': JSON.parse('\u005B\u005D')
-                                                        }
-        ,        {
             'id': 182,
             'name': 'custom_614c68052fe40',
             'icon': 'nf\u002Dfas\u0020nf\u002Dfa\u002Dfile\u002Dupload',
@@ -105,6 +87,24 @@ window['nf-forms']['26'] = {
             'dependsOnValues': '\u005B\u005D',
             'label': 'File\u0020label',
             'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\File\u0022,\u0022label\u0022\u003A\u0022File\u0020max\u0020size\u0022,\u0022name\u0022\u003A\u0022file_size\u0022,\u0022errorMessage\u0022\u003A\u0022Uploaded\u0020file\u0027s\u0020max\u0020size\u0020is\u002015\u0020megabytes\u0022,\u0022id\u0022\u003A163,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003A15,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Afalse\u007D,\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\Count\u0022,\u0022label\u0022\u003A\u0022Max\u0020number\u0020of\u0020files\u0020per\u0020submission\u0022,\u0022name\u0022\u003A\u0022max_count\u0022,\u0022errorMessage\u0022\u003A\u0022It\u0020should\u0020be\u0020not\u0020more\u0020than\u002010\u0020files\u0020per\u0020submission\u0022,\u0022id\u0022\u003A164,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003A10,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Afalse\u007D,\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022File\u0020should\u0020be\u0020uploaded\u0022,\u0022id\u0022\u003A165,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
+                                                        }
+        ,        {
+            'id': 181,
+            'name': 'submit',
+            'icon': '',
+            'type': 'submit',
+            'step': 1,
+            'choices': '\u005B\u005D',
+            'placeholder': '',
+            'width': 'col\u002Dmd\u002D12',
+            'isMultipleChoice': 0,
+            'isConditional': 0,
+            'isRequired': 0,
+            'canRender': 1,
+            'dependsOn': '',
+            'dependsOnValues': '\u005B\u005D',
+            'label': 'Submit',
+            'validationRules': JSON.parse('\u005B\u005D')
                                                         }
             ]
 };
