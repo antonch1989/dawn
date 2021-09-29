@@ -187,7 +187,7 @@ window['nf-forms']['27'] = {
             'icon': '',
             'type': 'choice',
             'step': 1,
-            'choices': '\u005B\u005D',
+            'choices': '\u005B\u0022Male\u0022,\u0022Female\u0022,\u0022Something\u0022,\u0022Nothing\u0022\u005D',
             'placeholder': 'Dropdown\u0020select\u0020placeholder',
             'width': 'col\u002Dmd\u002D12',
             'isMultipleChoice': 0,
