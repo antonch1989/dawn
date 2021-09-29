@@ -207,7 +207,7 @@ window['nf-forms']['27'] = {
             'icon': '',
             'type': 'radio',
             'step': 1,
-            'choices': '\u005B\u005D',
+            'choices': '\u005B\u0022aaa\u0022,\u0022bbb\u0022,\u0022ccc\u0022,\u0022ddd\u0022\u005D',
             'placeholder': 'Radios\/checkboxes\u0020placeholder',
             'width': 'col\u002Dmd\u002D12',
             'isMultipleChoice': 1,
@@ -217,9 +217,9 @@ window['nf-forms']['27'] = {
             'dependsOn': '',
             'dependsOnValues': '\u005B\u005D',
             'label': 'Radios\/checkboxes\u0020label',
-            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A180,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
+            'validationRules': JSON.parse('\u005B\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\NotBlank\u0022,\u0022label\u0022\u003A\u0022Required\u0022,\u0022name\u0022\u003A\u0022required\u0022,\u0022errorMessage\u0022\u003A\u0022This\u0020value\u0020shouldn\u0027t\u0020be\u0020blank\u0022,\u0022id\u0022\u003A180,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003Anull,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D,\u007B\u0022value\u0022\u003A\u0022Symfony\\\\Component\\\\Validator\\\\Constraints\\\\Count\u0022,\u0022label\u0022\u003A\u0022Max\u0020chosen\u0022,\u0022name\u0022\u003A\u0022max_count\u0022,\u0022errorMessage\u0022\u003A\u0022too\u0020much\u0022,\u0022id\u0022\u003A181,\u0022mimeTypes\u0022\u003Anull,\u0022fileMaxSize\u0022\u003A2,\u0022pattern\u0022\u003Anull,\u0022isDeletable\u0022\u003Atrue\u007D\u005D')
                             , 'settings': JSON.parse('\u007B\u0022differentValueAndLabel\u0022\u003Afalse\u007D')
-                                                    , 'isInline': 0
+                                                    , 'isInline': 1
                                         , 'defaultValue': '\u005B\u005D'
                     }
             ]
