@@ -210,7 +210,7 @@ window['nf-forms']['27'] = {
             'choices': '\u005B\u005D',
             'placeholder': 'Radios\/checkboxes\u0020placeholder',
             'width': 'col\u002Dmd\u002D12',
-            'isMultipleChoice': 0,
+            'isMultipleChoice': 1,
             'isConditional': 0,
             'isRequired': 1,
             'canRender': 1,
