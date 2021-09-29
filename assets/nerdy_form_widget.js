@@ -33,7 +33,7 @@ window['nf-forms']['27'] = {
     'addAsterisks': 0,
     'boldLabels': 1,
     'italicLabels': 0,
-    'frontendValidation': 1,
+    'frontendValidation': 0,
     'labelAlign': 'left',
     'successMessage': '\u003Cp\u003EThe\u0020form\u0020was\u0020submitted.\u0020Thank\u0020you\u0021\u0020We\u0027ll\u0020get\u0020back\u0020to\u0020you\u0020soon\u0021\u003C\/p\u003E\n\u003Cp\u003E\u003C\/p\u003E\n',
     'successMessageBgColor': 'rgba\u0028212,237,218,1\u0029',
